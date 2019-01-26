@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DONOR |Sign up </title>
+    <link rel="icon" type="image/png" href="../images/blood1.png" />
+
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+      
+
+
+
+  <nav class="navbar navbar-default main" >
+    <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html"id="logo"><span class="glyphicon glyphicon-heart"></span> BLOOD DONOR APPLICATION</a>
+                  </div>
+
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="../index.html"><span class="glyphicon glyphicon-log-in"></span> Home</a></li>
+                      <li><a href="signindonor.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- <div class="container-fluid">
+
+                  <p id="reg"> 
+                    
+              REGISTRATION FORM
+                  
+                  </p>
+                
+        
+              </div> -->
+              <div class="container" id="mainreg"  > 
+              <div class="form-group">
+                  <p id="reg"> 
+                    
+                    DONOR SIGNUP FORM
+                          
+                          </p>
+                <label for="full-name"> Full Name </label>
+                <input type="text" class="form-control" id="full-name(donor)">
+              </div>
+
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address(donor)">
+              </div>
+
+              <div class="form-group">
+                <label for="number">Mobile Number</label>
+                <input type="number" class="form-control" id="number(donor)">
+              </div>
+              <div class="form-group">
+                  <label for="sel1">Select your Blood Group:</label>
+                  <select class="form-control" id="sel1(donor)">
+                    <option>O +  </option>
+                    <option>O - </option> 
+
+                    <option>A +</option>
+                    <option>A -</option>
+                    
+                    <option>B + </option>
+                    <option>B -</option>
+
+                    <option>AB +</option>
+                    <option>AB -</option>
+                   
+                  </select>
+<br>
+
+              <div class="form-group">
+                <label for="useremail(donor)">Email address</label>
+                <input type="email" class="form-control" id="useremail(donor)" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="pwd(donor)">Password</label>
+                <input type="password" class="form-control" id="pwd(donor)" placeholder="Password"> <br>
+            <label for="img">Upload your picture</label>
+
+               <input type="file" class="form-control" id="img" >  
+
+
+                <br>                <br>
+
+                
+                <button type="button" class="btn btn-success" onclick="signupdonor()">Submit</button>
+                <div class="loader" id="loaders"></div>
+
+              </div>
+
+             
+
+            </div>
+
+
+            <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  
+            <script src="../js/app.js"></script>
+            <script src="../js/auth.js"></script>
+</body>
+</html>

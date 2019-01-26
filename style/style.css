@@ -1,0 +1,405 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#maihd{
+    background-color: lightblue;
+
+}
+.navbar navbar-default main{
+position: sticky;
+}
+#btnsd{
+    display: none;
+}
+
+/* //LOGIN */
+#exampleInputEmail1{
+    width: 75%;
+
+}
+#exampleInputPassword1{
+    width: 75%;
+  
+}
+#logform{
+width: 50%;
+padding-left: 10%;
+margin-top: 5%;
+height:auto ;
+margin-left: 25%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 30px;
+
+}
+#donor-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+}
+
+
+#accepter-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+}
+
+
+/* loader */
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-left: 40%;
+    display: none;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  .loader1 {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin-left: 20%;
+    display: none;
+
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+#abc{
+    display: none;
+}
+
+
+
+.navbar-header{
+    /* background-color: lightblue; */
+    color: white;
+    width: 400px;
+}
+#blood-name{
+    color: black;
+
+}
+#logo{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+/* #main-head{
+    /* border: 2px solid bisque; */
+    /* width: 40%;
+    margin-left: -220px; */
+/* } 
+
+
+    /* border: 2px solid blueviolet; */
+    .form-group
+    {
+        width:70%;
+    font-size:1em;
+    font-weight:normal;
+}
+
+#mainreg{
+        /* border: 2px solid blueviolet; */
+        width: 40%;
+
+}
+#reg{
+    margin-top:10%;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#useremail{
+    width: 145%;
+
+}
+
+#pwd{
+    width: 145%;
+
+}
+#sel1{
+    width: 120%;
+
+
+}
+ #home-head{
+        /* border: 2px solid blueviolet; */
+    width: 50%;
+    text-align: center;
+    font-size: 3.7em;
+    font-weight: bold;
+    margin-left: 25%;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#intro-message{
+        /* border: 2px solid blueviolet; */
+        width: 101.91%;
+        font-weight: bold;
+        font-size: 3em;
+        height:700px ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:center;
+         line-height: 60px;
+         margin-top: -1.3%;
+         margin-left: -1%;
+         padding-top: 13%;
+         padding-left: 5%;
+        /* background-color: lightsteelblue; */
+         /* background-image: url("images/s1.png"); */
+         background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 80%; 
+  text-shadow: 2px 2px  lightgray;
+}
+
+
+#bttypes{
+    /* border: 1px solid black; */
+    background-color:gainsboro;
+    padding-left: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      /* width: 70%; */
+
+}
+
+#bttypes1{
+    font-size:2em;
+
+}
+
+
+
+#mainhomepic{
+    font-size: 1.8em;
+    padding-top: 0px;
+    background-color: lavender;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 102%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 10px;
+
+
+
+}
+#dash{
+    background-color: lavender;
+    font-weight: bold;
+}
+#intro-message:hover{
+
+background-repeat: no-repeat, repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 80%; }
+#indbtn{
+    font-size: 0.5em;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+
+}
+#indbtn:hover{
+transition: 1s;
+    color: white;
+    background-color: red;
+    
+}
+.container #btns{
+    font-size: 1.3em;
+    margin-left: 45%;
+}
+
+
+#logo:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+
+}
+#logoutd{
+    background-color: black;
+    color: white;
+
+}
+
+#logouta{
+    background-color: black;
+    color: white;
+
+}
+#acceptermsg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    width: 20%;
+font-weight: bold;
+font-size: 1.6em;
+margin-left: 40%;
+padding-left: 2%;
+color: white;
+padding-top: 1%;
+padding-bottom: 1%;
+
+
+}
+
+#postabtn{
+    width: 10%;
+    margin-left: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: green;
+}
+
+#donorsmsg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: green;
+    width: 25%;
+font-weight: bold;
+font-size: 1.6em;
+margin-left: 40%;
+/* padding-left: 2%; */
+color: white;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+#accepterinput{
+  width: 40%;  
+  height: 80px;
+}
+
+#donorinput{
+    width: 90%;  
+    height: 80px;
+  }
+
+  #postdbtn{
+    width: 10%;
+    margin-left: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: green;
+  }
+  tr{
+    /* border: 2px solid blueviolet; */
+    height: 60px;
+    width: 180px;
+    font-size: 1em;
+
+}
+
+
+#my{
+    margin-left:30%;
+    padding-left: 20px;
+}
+  
+
+  .styleo{
+    background-color: rgb(73, 82, 73);
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+ 
+  #myb{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-weight: bold;
+
+  } 
+#mydo{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-weight: bold;
+}
+  
+  .table table-hover:hover{
+    transition: 2s;
+
+
+  }
+  #header-one{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  #header-one:hover{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    transition: 2s;
+
+  }
+
+  #flo{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    transition: 2s;  
+  }
+  #flo:hover{
+    transition: 2s;  
+  }
+
+  #show{
+     /* border: 3px solid blueviolet; */
+     margin-top: -2.5%;
+  }
+  #header-two{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+
+  }
